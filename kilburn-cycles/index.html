@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kilburn Cycles | Bikes, Repairs, and Community</title>
+  <meta name="description" content="Kilburn Cycles: quality bikes, expert repairs, and friendly service in your neighborhood. Visit our shop or book a service online." />
+  <link rel="canonical" href="https://example.com/" />
+  <meta property="og:title" content="Kilburn Cycles" />
+  <meta property="og:description" content="Quality bikes, expert repairs, friendly service." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Kilburn Cycles home">
+        <img src="./assets/logo.svg" width="36" height="36" alt="" />
+        <span>Kilburn Cycles</span>
+      </a>
+
+      <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false">
+        <span class="sr-only">Toggle menu</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <nav id="primary-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#bikes">Bikes</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero">
+      <div class="container">
+        <h1>Ride further. Ride happier.</h1>
+        <p>Independent shop for city, gravel, and electric bikes. Expert repairs, same-day tune-ups, and friendly advice.</p>
+        <div class="actions">
+          <a class="btn primary" href="#services">Book a service</a>
+          <a class="btn" href="#bikes">Shop bikes</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="bikes" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Featured bikes</h2>
+          <p>Hand-picked models ready to test ride today.</p>
+        </header>
+        <div class="grid cards">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1517445312885-9d95d7a4c8d1?q=80&w=1200&auto=format&fit=crop" alt="Lightweight city bike in matte black" loading="lazy" />
+            <div class="card-body">
+              <h3>City Commuter</h3>
+              <p>Fast, low-maintenance 8-speed with hub dynamo lights.</p>
+              <a class="btn small" href="#contact">Check availability</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=1200&auto=format&fit=crop" alt="Gravel bike on a forest path" loading="lazy" />
+            <div class="card-body">
+              <h3>All-Road Gravel</h3>
+              <p>Go anywhere versatility with tubeless 40c tyres.</p>
+              <a class="btn small" href="#contact">Book a test ride</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?q=80&w=1200&auto=format&fit=crop" alt="Electric bike outside a cafe" loading="lazy" />
+            <div class="card-body">
+              <h3>E‑Bike Urban</h3>
+              <p>Assisted pedalling up to 25 km/h with 80 km range.</p>
+              <a class="btn small" href="#contact">See financing</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Workshop services</h2>
+          <p>Transparent pricing. No surprises.</p>
+        </header>
+        <div class="grid features">
+          <div class="feature">
+            <h3>Safety Check</h3>
+            <p>Torque check, brakes and gears adjusted, tyres inflated. <strong>£25</strong></p>
+          </div>
+          <div class="feature">
+            <h3>Standard Tune‑Up</h3>
+            <p>Full adjust, wheel true, drivetrain clean and lube. <strong>£60</strong></p>
+          </div>
+          <div class="feature">
+            <h3>Overhaul</h3>
+            <p>Strip, clean, rebuild with new cables and bearings. <strong>£160</strong></p>
+          </div>
+          <div class="feature">
+            <h3>e‑Bike Diagnostics</h3>
+            <p>System health, firmware update, battery test. <strong>£45</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <header class="section-header">
+          <h2>About us</h2>
+        </header>
+        <p>Kilburn Cycles is a neighborhood bike shop rooted in community. We believe every rider deserves a bike that fits their life. From daily commuters to weekend gravel epics, we’re here to keep you rolling.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Get in touch</h2>
+          <p>Questions or bookings? Send a message and we’ll reply promptly.</p>
+        </header>
+        <div class="grid contact">
+          <form id="contact-form" class="card form" aria-labelledby="contact-form-title">
+            <h3 id="contact-form-title">Send a message</h3>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send</button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </div>
+          </form>
+
+          <aside class="card map" aria-label="Map">
+            <div class="map-embed" role="img" aria-label="Map placeholder for Kilburn Cycles">Map placeholder. Add your embed here.</div>
+            <div class="map-details">
+              <p><strong>Address:</strong> 123 High Road, Kilburn</p>
+              <p><strong>Hours:</strong> Mon–Sat 10–6, Sun 11–4</p>
+              <p><strong>Phone:</strong> <a href="tel:+441234567890">+44 1234 567 890</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#" aria-label="Kilburn Cycles home">
+        <img src="./assets/logo.svg" width="28" height="28" alt="" />
+        <span>Kilburn Cycles</span>
+      </a>
+      <p>© <span id="y"></span> Kilburn Cycles. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
